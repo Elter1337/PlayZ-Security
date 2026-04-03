@@ -130,7 +130,6 @@ func BanHandler(s *discordgo.Session, event *discordgo.GuildBanAdd) {
 	}
 
 	data, err := database.Database.FindData(event.GuildID)
-	if err != nilabase.FindData(event.GuildID)
 	if err != nil {
 		return
 	}
